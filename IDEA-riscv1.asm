@@ -29,7 +29,7 @@ loop:
     # Prepara argumentos para a chamada de sistema write
     li a0, 1        # Carrega o valor 1 em a0 (descritor de arquivo para stdout)
     la a1, output_format  # Endereço do formato
-    mv a2, t6       # Índice do elemento
+    mv a2, t6       # �?ndice do elemento
     mv a3, t3       # Valor a ser impresso
 
     # Chamada de sistema write
